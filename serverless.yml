@@ -1,0 +1,16 @@
+type: simple-app
+
+components:
+  myNetlifySite:
+    type: netlify-site
+    inputs:
+      netlifyApiToken: 7ece1dda50673453862edde7ed29729d4cda69ecda15cb59df5b22cd2f978d54
+      githubApiToken: ae1f67d3346b3e60fbb9d0a52173ff3e4e0785ef
+      siteName: my-awesome-site-lol-lol.netlify.com
+      siteDomain: testing-lol-lol-lol.com
+      siteRepo: https://github.com/serverless/netlify-landing-page
+      siteBuildCommand: npm run build
+      siteBuildDirectory: build
+      siteRepoBranch: master
+      siteRepoAllowedBranches:
+          - master
